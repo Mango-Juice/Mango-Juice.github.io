@@ -25,14 +25,14 @@ body {
 .button{
     display:inline-block;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 300;
     border-style:solid;
     border-color: #FFA000;
     color: #fff;
     border-width: 10px;
-    padding: 30px;
-    margin-top: 30px;
+    padding: 50px;
+    margin-top: 50px;
     width: 80%;
     text-decoration:none
 }
