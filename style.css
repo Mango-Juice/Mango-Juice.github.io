@@ -9,4 +9,16 @@ body {
     color: #FFB700;
     font-weight: 900;
     font-size: 100px;
+    margin-top: 10px;
+}
+.mini_title{
+    text-align: center;
+    color: #DDDDDD;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 3px;
+}
+.centered { 
+    text-align: center;
+    padding: 100px 0;
 }
