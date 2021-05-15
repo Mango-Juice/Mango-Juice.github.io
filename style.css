@@ -19,7 +19,7 @@ body {
 }
 .centered { 
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .button{
     display:inline-block;
@@ -38,6 +38,7 @@ body {
 }
 .button:hover{
     color:#000;
-    background-color:#ddd;
+    background-color:#fff;
+    font-weight: 700;
     transform: scale( 1.05 );
 }
