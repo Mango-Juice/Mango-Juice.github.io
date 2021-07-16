@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 body {
   font-family: "Noto Sans KR", sans-serif !important;
@@ -8,36 +9,60 @@ body {
     text-align: center;
     color: #FFAA00;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 50px;
+    margin-top: 30px;
 }
 .mini_title{
     text-align: center;
     color: #DDDDDD;
     font-weight: 300;
-    font-size: 50px;
-    margin-top: 3px;
+    font-size: 25px;
+    margin-top: 1px;
 }
 .centered { 
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .button{
     display:inline-block;
     text-align: center;
-    font-size: 50px;
+    font-size: 22px;
     font-weight: 300;
     border-style:solid;
     color: #fff;
-    border-width: 10px;
-    padding: 15px;
-    margin-top: 70px;
+    border-width: 5px;
+    padding: 10px;
+    margin-top: 20px;
     width: 80%;
     text-decoration:none;
-    transition: all ease 0.4s;
+    transition: all ease 0.3s;
 }
 .button:hover{
     color:#000;
     background-color:#fff;
     font-weight: 700;
-    transform: scale( 1.05 );
+    transform: scale( 1.1 );
+}
+
+.special{
+    display:inline-block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    border-style:solid;
+    color: #fff;
+    border-width: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    text-decoration:none;
+    transition: all ease 0.3s;
+    background: linear-gradient(to right, #303000, #300000, #000030);
+}
+.special:hover{
+    color:#000;
+    background: linear-gradient(to right, #fff4d4, #f4d3e3, #ceebf9);
+    font-weight: 700;
+    transform: scale( 1.1 );
 }
