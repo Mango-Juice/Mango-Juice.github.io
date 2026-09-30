@@ -1,33 +1,76 @@
-<!DOCTYPE html>
-
-<html>
-    
-    <head>
-        <meta name="title" content="잘익은 망고쥬스">
-        <meta name="description" content="이것 저것 하는 코린이, 잘익은 망고쥬스입니다.">
-        <meta name="author" content="잘익은 망고쥬스">
-        <meta name="robots" content="noimageindex" />
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="icon" href="favicon.ico">
-        <meta property="og:type" content="website"> 
-        <meta property="og:title" content="잘익은 망고쥬스">
-        <meta property="og:description" content="이것 저것 하는 코린이, 잘익은 망고쥬스입니다.">
-        <meta property="og:url" content="https://mango-juice.github.io/">
-        <meta property="og:image" content="mango.jpg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        
-        <link rel="stylesheet" href="style.css">
-        <title>잘익은 망고쥬스</title>
-    </head>
-    
-    <body bgcolor="black">
-        <div class = "title"> 잘익은 망고쥬스 </div>
-        <div class = "mini_title">  - To be Updated -  </div>
-        <div class = "title">🍕🍔🍟🌭🍿🧂🥓🥚</div>
-        <div class = "title">🍳🧇🥞🧈🍞🥐🥨🥯</div>
-        <div class = "title">🥖🧀🥗🥙🥪🌮🌯🥫</div>
-        <div class = "title">🍖🍗🥩🍠🥟🥠🥡🍱</div>
-        <div class = "title">🍘🍙🍚🍛🍜🦪🍣🍤</div>
-    </body>
-    
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>잘익은 망고쥬스 - 전민규</title>
+    <meta
+      name="description"
+      content="이것 저것 하는 코린이, 잘익은 망고쥬스(전민규)입니다."
+    />
+    <meta name="author" content="전민규" />
+    <meta name="robots" content="noimageindex" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="잘익은 망고쥬스 - 전민규" />
+    <meta
+      property="og:description"
+      content="이것 저것 하는 코린이, 잘익은 망고쥬스(전민규)입니다."
+    />
+    <meta property="og:url" content="https://mango-juice.github.io/" />
+    <meta
+      property="og:image"
+      content="https://mango-juice.github.io/assets/images/mango.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;900&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scenes.js" defer></script>
+    <script src="player.js" defer></script>
+  </head>
+  <body>
+    <svg id="arrow-markers" width="0" height="0">
+      <defs>
+        <marker
+          id="ah"
+          viewBox="0 0 10 10"
+          refX="8"
+          refY="5"
+          markerWidth="7"
+          markerHeight="7"
+          orient="auto"
+        >
+          <path d="M0 0L10 5L0 10z" fill="context-stroke" />
+        </marker>
+      </defs>
+    </svg>
+    <div id="stage">
+      <canvas id="bg" width="1920" height="1080"></canvas>
+      <div id="glow"></div>
+      <div id="fx"></div>
+      <div id="wipe"></div>
+    </div>
+    <div id="start">
+      <div>
+        ▶ 전민규 소개 영상
+        <p>클릭하면 시작 · 소리 포함 · 스페이스바 일시정지</p>
+      </div>
+    </div>
+    <div id="ui" class="hide">
+      <button id="pp">⏸</button>
+      <button id="bk" title="5초 전 (←)">◀ 5초</button>
+      <button id="fw" title="5초 후 (→)">5초 ▶</button>
+      <span id="tm"></span>
+      <div id="seek"><i></i></div>
+      <button id="sp" title="재생 속도">1×</button>
+      <button id="mu">🔊</button>
+    </div>
+  </body>
 </html>
